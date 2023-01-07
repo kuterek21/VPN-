@@ -1,0 +1,15 @@
+IPSec Proposals
+ISAKMP policies
+ACLs
+==============================
+show crypto isa sa
+                        ping to send some traffic and establish a tunnel
+- show logg doesnt show any crypto unless
+
+crypto logg session
+
+clear crypto isa - takes the tunnel down !
+show logg
+
+show logg | i PHASE 1
+show logg | i PHASE 2
