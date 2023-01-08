@@ -44,6 +44,14 @@ MM_ACTIVE - phase 1 has been completed !
 -------------------------------------------------------------------
  show crypto session ! show all the configured sessions ! - even if they are not up !
  
+-------------------------------------------------------------------
+sh cry ikev2 sa
+
+sh cry ikev2 policy
+
+sh cry ikev2 proposal
+
+FLEXVPN sh cry int 
 
 
 
