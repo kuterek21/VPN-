@@ -25,3 +25,22 @@ show crypto ipsec sa -  lists the IPSec tunnels that are currently up
 show crypto session | !! not on ASA
 
 show crypto isakm sa detail
+
+-------------------------------------------------------------------
+MM x6 
+MM_WAIT_MSG2 - message send but the peer has not responded
+
+MM_WAIT_MSG3
+
+MM_WAIT_MSG4 received a message from Peer and now sent hash of pre-share and waiting for the peer to respond
+
+MM_WAIT_MSG5 - received PSK hash but its not matching
+
+MM_WAIT_MSG6 - the PSK pre-shared key didnt match !
+
+MM_ACTIVE - phase 1 has been completed !
+
+
+
+
+
