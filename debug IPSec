@@ -1,0 +1,11 @@
+show logg:
+      Console logging:
+      Monitor logging:
+      Buffer logging:
+
+sh cry isa sa
+
+!
+debug crypto isakmp
+!
+sh run tunnel-group // where the PSK lives (password)
